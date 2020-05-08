@@ -37,4 +37,12 @@ nav> a:hover {
 }
 .container {
     background-color: midnightblue;
+    display: flex;
+    min-height: 500px;
+}
+article {
+    flex: 3;
+}
+aside {
+    flex: 1;
 }
