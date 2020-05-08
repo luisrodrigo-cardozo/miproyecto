@@ -2,10 +2,36 @@
     margin: 0;
     padding: 0;
 }
-
+header {
+    background-color: royalblue;
+    display: flex;
+}
 h1 {
     color: darkblue;
+    font-size: 60px;
 }
 h2 {
     color: red;
+    font-size: 30px;
+
+}
+.hijo1 {
+    flex: 3;
+}
+.hijo2 {
+    flex: 1;
+}
+nav {
+    background-color: black;
+}
+nav> a {
+    text-decoration: none;
+    font-size: 40px;
+    background-color: midnightblue;
+    color: white;
+}
+
+nav> a:hover {
+    color:midnightblue ;
+    background-color: white;
 }
