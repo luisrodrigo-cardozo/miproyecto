@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 header {
     background-color: royalblue;
     display: flex;
@@ -24,16 +25,38 @@ h2 {
 nav {
     background-color: black;
 }
-nav> a {
-    text-decoration: none;
+ 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menuinicio a{
     font-size: 40px;
-    background-color: midnightblue;
     color: white;
+    text-decoration: none;
+
+}
+.menuinicio>li {
+    color: white;
+    display: inline-block;
+
 }
 
-nav> a:hover {
-    color:midnightblue ;
-    background-color: white;
+.menuinicio>li ul {
+    display: none;
+    position: absolute;
+    background-color: green;
+    font-size: 30px;
+    padding: 6px;
+}
+
+.menuinicio li:hover >ul {
+    display: block;
+}
+.tipoclase {
+    position: absolute;
+    left: 145px;
 }
 .container {
     background-color: midnightblue;
@@ -45,4 +68,8 @@ article {
 }
 aside {
     flex: 1;
+}
+footer {
+    background-color: black;
+    color: white;
 }
