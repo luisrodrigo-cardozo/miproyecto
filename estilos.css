@@ -73,3 +73,21 @@ footer {
     background-color: black;
     color: white;
 }
+.fab {
+    font-size: 60px;
+    color: white;
+}
+footer {
+    display: flex;
+}
+.fhijo1 {
+    flex: 1;
+}
+.fhijo2 {
+    flex: 1;
+}
+.titlefooter {
+    font-size: 35px;
+    color: white;
+
+}
