@@ -93,11 +93,15 @@ footer {
 }
 .izquierda {
     background-color: royalblue;
+
+}
+.izquierda li {
+    background-color:#000080;
+    border: solid 2px white;
+    text-align: center;
 }
 .izquierda ul>li>a {
     font-size: 90px;
     text-decoration: none;
-    background-color: green;
     color: white;
-    
 }
