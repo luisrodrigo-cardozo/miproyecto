@@ -46,7 +46,7 @@ ul {
 .menuinicio>li ul {
     display: none;
     position: absolute;
-    background-color: green;
+    background-color:#000080;
     font-size: 30px;
     padding: 6px;
 }
@@ -104,4 +104,10 @@ footer {
     font-size: 90px;
     text-decoration: none;
     color: white;
+}
+li:hover {
+    background-color: darkcyan;
+}
+.animate {
+    transition: background-color 3s;
 }
