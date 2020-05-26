@@ -7,6 +7,15 @@ header {
     background-color: royalblue;
     display: flex;
 }
+.claseimagen {
+    width: 100%;
+    /*border: solid orange ;*/
+    animation-name: imagenanimada;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    position: relative;
+    animation-iteration-count: infinite;
+}
 h1 {
     color: darkblue;
     font-size: 60px;
@@ -110,4 +119,11 @@ li:hover {
 }
 .animate {
     transition: background-color 3s;
+}
+@keyframes imagenanimada {
+    0% {border: dotted blue 13px;}
+    25% {border: dotted red 13px;}
+    50% {border: dotted green 13px;}
+    75% {border: dotted maroon 13px;}
+    100% {border: dotted purple 13px;}
 }
